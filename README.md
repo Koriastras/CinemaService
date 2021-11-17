@@ -3,7 +3,7 @@ It is an example of the Spring application "Cinema Service" created with Spring 
 
 ## Table of contents
 * [General info](#general-info)
-* [How to install](#how-to-install)
+* [How to run](#how-to-run)
 * [Technologies](#technologies)
 * [Contribute](#contribute)
 
@@ -12,13 +12,10 @@ In this project, we can login a user with shopping cart. User can make an order,
 All information save to the Data Base. User information is hashing. 
 It is a training project that was created to show my skills in Spring Web, Spring Security, Spring REST and Hibernate as part of the "Mate Academy" course.
 
-## How to install
-1. Create a new Maven project in Intellij IDEA Ultimate Edition 
-2. Check if dependency version is actual in pom.xml
-3. Change package name in /config/AppConfig and WebConfig if need it
-4. In /resources/db.properties add Driver, the path to your DB, password, and username
-5. Install MySQL Workbench or another DBMS and create a schema
-6. Run Tomcat 9.0.50 in Intellij IDEA
+## How to run
+1. (Optional) Install MySQL Workbench or another DBMS and create a schema 
+2. In `src/main/resources/db.properties` add Driver, the path to your DB, password, and username 
+3. Deploy application to Tomcat 9.x
 
 ## Technologies
 * JDK 11 (Ultimate Edition)
